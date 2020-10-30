@@ -1,0 +1,53 @@
+#w3c {
+	clear: both;
+}
+fieldset {
+	background-color: #E0E0FF;
+	border: 2px outset gray;
+	border-radius: 10px;
+}
+
+/* the bold text labels to the left of each form field */
+
+input[type="submit"] {
+	background-color: #0001ff;
+	font-size: 120%;
+	font-weight: bold;
+}
+div {
+	overflow: hidden;
+}
+#bannerarea {
+	margin-bottom: 2em;
+}
+
+body {
+	background-color: white;
+	padding-left: 1em;
+}
+a:hover {
+	background-color: #FFA;
+}
+
+a img {
+	border: none;
+}
+
+body {
+	background-color: white;
+	padding-left: 1em;
+}
+
+body > div, form {
+	overflow: hidden;
+	width: 35em;
+}
+* {
+	font-size: 12pt;
+	font-family: "Verdana", "Geneva", sans-serif;
+}
+
+a {
+	color: #0001ff;
+	text-decoration: none;
+}
