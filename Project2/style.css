@@ -1,0 +1,57 @@
+
+#w3c {
+	clear: both;
+}
+
+input[type="submit"] {
+	background-color: #00c3ff;
+	font-size: 150%;
+	font-weight: bold;
+}
+div {
+	overflow: hidden;
+}
+#bannerarea {
+	margin-bottom: 2em;
+}
+
+body {
+	background-color: white;
+	padding-left: 1em;
+}
+a:hover {
+	background-color: #FFA;
+}
+
+a img {
+	border: none;
+}
+
+
+body{
+	background-image: url("img/background.jpg");
+	background-size: fill;
+	color: white;
+	padding-left: 1em;
+	}
+
+body > div, form {
+	overflow: hidden;
+	width: 35em;
+}
+* {
+	font-size: 15pt;
+	font-family: "Verdana", "Geneva", sans-serif;
+}
+
+a {
+	color: #00eeff;
+	text-decoration: none;
+}
+
+question{
+	background-image: url("img/background.jpg");
+	background-size: fill;
+	color: white;
+	background-size: 1500px 3000px;
+	}
