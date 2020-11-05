@@ -8,6 +8,11 @@
     <?php include("top.html"); ?>
 
     <?php 
+
+        if(!isset($_POST['name']) OR $_POST['name'] == ""){
+            exit("<h1>Error! Invalid Data.</h1>
+            <p>We're sorry. You submitted invalid user data. Please go back and try again.</p>");
+        }
          $file = 'results.txt';
 
          $fopen = fopen($file, 'r');
