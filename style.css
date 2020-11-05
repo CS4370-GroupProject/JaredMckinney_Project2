@@ -1,53 +1,56 @@
 #w3c {
-	clear: both;
+  clear: both;
 }
-fieldset {
-	background-color: #E0E0FF;
-	border: 2px outset gray;
-	border-radius: 10px;
-}
-
-/* the bold text labels to the left of each form field */
 
 input[type="submit"] {
-	background-color: #0001ff;
-	font-size: 120%;
-	font-weight: bold;
+  background-color: #00c3ff;
+  font-size: 150%;
+  font-weight: bold;
 }
 div {
-	overflow: hidden;
+  overflow: hidden;
 }
 #bannerarea {
-	margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 body {
-	background-color: white;
-	padding-left: 1em;
+  background-color: white;
+  padding-left: 1em;
 }
 a:hover {
-	background-color: #FFA;
+  background-color: #ffa;
 }
 
 a img {
-	border: none;
+  border: none;
 }
 
 body {
-	background-color: white;
-	padding-left: 1em;
+  background-image: url("./img/background.jpg");
+  background-size: fill;
+  color: white;
+  padding-left: 1em;
 }
 
-body > div, form {
-	overflow: hidden;
-	width: 35em;
+body > div,
+form {
+  overflow: hidden;
+  width: 35em;
 }
 * {
-	font-size: 12pt;
-	font-family: "Verdana", "Geneva", sans-serif;
+  font-size: 15pt;
+  font-family: "Verdana", "Geneva", sans-serif;
 }
 
 a {
-	color: #0001ff;
-	text-decoration: none;
+  color: #00eeff;
+  text-decoration: none;
+}
+
+question {
+  background-image: url("./img/background.jpg");
+  background-size: fill;
+  color: white;
+  background-size: 1500px 3000px;
 }

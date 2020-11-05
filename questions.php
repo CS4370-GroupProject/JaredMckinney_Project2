@@ -9,13 +9,21 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1
 <?php include("top.html"); ?>
 <html>
 <body>
-<form action="results.php" method="post">
 <?php
+
 // Set session variables
-$_SESSION["name"] = $_POST["name"];
+$name = $_POST["name"];
+$_SESSION["name"] = $name;
 $_SESSION["gender"] = $_POST["gender"];
-$_SESSION["age"] = $_POST["age"];
+$age = intval($_POST["age"]);
+$_SESSION["age"] = $age;
+
+if(!isset($name) OR $name == "" OR !isset($age) OR $age == "" OR !is_integer($age)){
+    exit("<h1>Error! Invalid Data.</h1>
+    <p>We're sorry. You submitted invalid user data. Please go back and try again.</p>");
+}
 ?>
+<form action="results.php" method="post">
 <fieldset>
 <legend> Welcome, <?php print $cookie_value?> </legend>
 
@@ -154,10 +162,10 @@ $_SESSION["age"] = $_POST["age"];
 <input type="radio" name="Q12" value="17" />17
 <input type="radio" name="Q12" value="9" />9 <!This is the correct answer>
 <input type="radio" name="Q12" value="7" />7
-</p>
-                        
+</p>            
 <input type="submit" value="Submit Questions">
 </fieldset>
 </form>
 
 <?php include("bottom.html"); ?>
+
