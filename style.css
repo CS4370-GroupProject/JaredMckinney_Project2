@@ -28,7 +28,9 @@ a img {
 
 body {
   background-image: url("./img/background.jpg");
-  background-size: fill;
+    background-size: 100% 100% ;
+	 background-repeat: no-repeat ;
+	 background-attachment: fixed;
   color: white;
   padding-left: 1em;
 }
@@ -50,7 +52,9 @@ a {
 
 question {
   background-image: url("./img/background.jpg");
-  background-size: fill;
+    background-size: 100% 100% ;
+	 background-repeat: no-repeat ;
+	 background-attachment: fixed;
   color: white;
-  background-size: 1500px 3000px;
+  padding-left: 1em;
 }
